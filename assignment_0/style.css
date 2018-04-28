@@ -1,0 +1,73 @@
+#home{
+    margin-right:12px;
+    border: 2px solid rgb(1,209,152);
+    padding:3px 3px 3px 3px;
+    border-radius: 5px;
+    background-color:rgba(1,209,152,.8);
+}
+#gallary{
+    margin-right:12px;
+    border: 2px solid rgb(1,209,152);
+    padding:3px 3px 3px 3px;
+    border-radius: 5px;
+    background-color:rgba(1,209,152,.8);
+}
+#about{
+    margin-right:12px;
+    border: 2px solid rgb(1,209,152);
+    padding:3px 3px 3px 3px;
+    border-radius: 5px;
+    background-color:rgba(1,209,152,.8);
+}
+.nav{
+    padding:10px 12px 10px 10px;
+    border: 2px solid rgba(185,185,185,.4);
+    background-color:rgba(185,185,185,.5);
+    border-radius: 5px;
+}
+.navigation{
+    color:rgb(250,250,250);
+}
+#bg{
+
+    background-image:url("http://www.modafinilsale.com/data/out/268/228216147-joker-card-wallpapers.jpg");
+    background-position:absolute;
+    background-repeat:no-repeat;
+    height:100vh;
+    background-size:cover;
+    padding:0px;
+    margin:0px;
+}
+img{
+	width:350px;
+	height:240px;
+	border: 3px solid rgb(135,190,20);
+}
+.images{
+	margin-top:12px;
+	margin-left:80px;
+}
+.about{
+    margin-top:50px;
+    margin-left:137px;
+    background-color:rgba(155,155,155,.9);
+    width: 78%;
+    border: 3px solid rgb(155,155,155);
+    padding: 10px;
+    border-radius:12px;
+}
+h1{
+    text-align:center;
+    color:red;
+}
+
+p{
+    color:rgb(255,96,0);
+    padding-left:12px;
+    font-size:18px;
+    font-family:monospace;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
