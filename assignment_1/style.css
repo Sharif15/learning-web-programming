@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    margin-top:15%;
+    margin-left:37%;
+    margin-right:26%;
+}
+.cube{
+    height:25vh;
+    width: 25vh;
+}
+#firstOne{
+    background-color: red;
+}
+#secondOne{
+    background-color: blue;
+    margin-left: 2px;
+}
+#thirdOne{
+    background-color: rgb(31, 168, 4);
+}
+#fourthOne{
+    background-color: rgb(251, 255, 0);
+    margin-left: 2px;
+}
+#firstHalf{
+    display: flex;
+}
+#secondHalf{
+    display: flex;
+    margin-top: 2px;
+}
