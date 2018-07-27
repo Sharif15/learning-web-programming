@@ -21,4 +21,10 @@ promise0.then(function(pcb){
 function (r){
     console.log(r);
 })}
+function fetching(){
+    var json = fetch("./myJson.json")
+    json.then(function(data){
+        console.log(data.myself);
+    })
+}
 
