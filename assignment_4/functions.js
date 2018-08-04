@@ -22,9 +22,8 @@ function (r){
     console.log(r);
 })}
 function fetching(){
-    var json = fetch("./myJson.json")
-    json.then(function(data){
-        console.log(data.myself);
-    })
+    fetch("https://api.myjson.com/bins/13giww").then(data =>
+       data.json()
+    ).then(res =>
+        console.log(res.data))
 }
-
