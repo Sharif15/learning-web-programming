@@ -1,0 +1,124 @@
+.mainSbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient( to right,rgb(0, 102, 255),yellow,rgba(255, 72, 0, 0.952));
+}
+.mainSbar  li{
+    float :left;
+}
+.mainSbar  li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 18% 16px;
+    text-decoration: none;
+}
+.mainSbar  li a:hover:not(.stayOn){
+    background-color: rgb(240, 79, 4);
+    color:black;
+}
+/* .stayOn{
+    background-color: rgba(240, 40, 4, 0.952);
+} */
+.pageBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.pageBar{
+    margin-top:2px;
+    float :left;
+    width:13.5%;
+    height:100%;
+    position: fixed;
+    overflow: auto;
+}
+.pageBar  li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.pageBar  li a:hover{
+    background-color:#4CAF50;
+    color:white;
+}
+.mainContent{
+    background-color: rgba(76, 175, 79, 0.6);
+    width:70%;
+    float: left;
+    height:100vh;
+}
+.sideContent{
+    background-color: rgba(250, 235, 215, 0.7);
+    width:28%;
+    float: right;
+    padding-bottom: 6px;
+    height:100vh;
+}
+.heading{
+    text-align: center;
+}
+.clearfix{
+    margin-top:5px;
+    padding-left:4px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display:table;
+}
+body{
+
+    background-image:url("background.jpg");
+    background-position:absolute;
+    background-repeat:no-repeat;
+    height:100%;
+    background-size:cover;
+    font-family: 'Times New Roman', Times, serif
+}
+.container{
+    width:84%;
+    float:right;
+    text-align: left;
+    padding-left: 3px;
+    margin-top:2px;
+    border:2px solid red;
+    background-color: rgba(0, 119, 255, 0.5);
+    color:rgb(238, 209, 155);  
+    font-size:19.5px;
+}
+.gallaryImg{
+    width:30%;
+    height:20vw;
+    border: 1px solid rgba(0, 119, 255, 0.5)
+}
+.aboutImg{
+    float: right;
+    width:30%;
+}
+.whole{
+    margin-top: 5px;
+
+}
+.font{
+    font-size:20px;
+}
+
+@media screen and (max-width:500px){
+    .sideContent{
+        width:100%;
+        float:none;
+    }
+    .mainContent{
+        width:100%;
+        float: none;
+    }
+
+}
+
